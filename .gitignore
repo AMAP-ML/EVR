@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.envrc
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Build / package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / runtime
+*.log
+logs/
+wandb/
+runs/
+outputs/
+checkpoints/
+cache/
+tmp/
+
+# ML models / datasets
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+data/
+datasets/
+models/
+
+# Local configuration
+config.local.yaml
+config.local.yml
+
+# Training artifacts
+logs/
+checkpoints/
+
+# Data
+*.jsonl
+!dataset/refdata/*.jsonl
+
+# System
+.DS_Store
+
+dataset
+
+ckpt
+
+custom_dataset

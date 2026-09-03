@@ -1,0 +1,9 @@
+transformers==4.57.0
+vllm==0.11.0
+tokenizers==0.22.1
+flask
+openai
+fastapi==0.122.0
+starlette==0.50.0
+uvicorn==0.38.0
+pydantic==2.12.4
